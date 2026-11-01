@@ -1,0 +1,19 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,sans-serif;color:#1c2833}
+.app{display:flex;flex-direction:column;height:100vh}
+header{padding:10px 16px;background:#14213d;color:#fff;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+header h1{font-size:18px;margin:0}header small{opacity:.75;display:block;font-weight:400}
+.kpis{display:flex;gap:10px;flex-wrap:wrap}
+.kpi{background:#fff2;border-radius:8px;padding:6px 14px;text-align:center;min-width:110px}
+.kpi b{display:block;font-size:22px}.kpi span{font-size:11px;opacity:.85}
+.mapa{position:relative;flex:1}
+.panel{position:absolute;top:10px;right:10px;width:260px;max-height:calc(100% - 20px);overflow:auto;background:#fffffff2;border-radius:10px;padding:10px;box-shadow:0 2px 10px #0003;font-size:13px}
+.panel h3{margin:0 0 6px;font-size:14px}
+.ctrl{display:flex;gap:6px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
+button,select{font:inherit;padding:4px 8px;border-radius:6px;border:1px solid #bbb;background:#fff;cursor:pointer}
+.reloj{font-weight:700;margin-left:auto}
+.cam{display:flex;align-items:center;gap:6px;padding:3px 0;border-top:1px solid #eee}
+.dot{width:11px;height:11px;border-radius:50%;flex:none}
+.cam .n{flex:1}.cam small{color:#555}
+.leyenda{margin-top:8px;font-size:12px;color:#444}
+.msg{position:absolute;left:10px;bottom:10px;background:#fffffff2;padding:6px 10px;border-radius:8px;font-size:12px}
+@media(max-width:700px){.panel{width:200px;font-size:12px}}
